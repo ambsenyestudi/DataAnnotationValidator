@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotationValidator", "DataAnnotationValidator\DataAnnotationValidator.csproj", "{2A762A32-EACC-4459-8B80-F9C8B6DBACE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotationValidator.Domain", "DataAnnotationValidator\DataAnnotationValidator.Domain.csproj", "{2A762A32-EACC-4459-8B80-F9C8B6DBACE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotationValidator.Test", "DataAnnotationValidator.Test\DataAnnotationValidator.Test.csproj", "{23CA8CCF-D315-401B-A998-AFD95A93D9A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2A762A32-EACC-4459-8B80-F9C8B6DBACE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A762A32-EACC-4459-8B80-F9C8B6DBACE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A762A32-EACC-4459-8B80-F9C8B6DBACE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23CA8CCF-D315-401B-A998-AFD95A93D9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CA8CCF-D315-401B-A998-AFD95A93D9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CA8CCF-D315-401B-A998-AFD95A93D9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CA8CCF-D315-401B-A998-AFD95A93D9A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
