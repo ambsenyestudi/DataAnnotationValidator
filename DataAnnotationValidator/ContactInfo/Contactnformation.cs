@@ -5,12 +5,15 @@ namespace DataAnnotationValidator.Domain.ContactInfo
     public class Contactnformation
     {
         [Required(ErrorMessage = "Missing Name")]
+        [MinLength(2, ErrorMessage = "Invalid Name format")]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Missing Surname")]
+        [MinLength(2, ErrorMessage = "Invalid Surname format")]
         public string Surname { get; set; }
 
         [Required(ErrorMessage = "Missing IdNumber")]
+        [MinLength(3, ErrorMessage = "Invalid IdNumber format")]
         public string IdNumber { get; set; }
 
         [Required(ErrorMessage = "Missing Professional Phone Number")]
